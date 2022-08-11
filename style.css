@@ -1,0 +1,119 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+    
+}
+
+
+
+.featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+
+#hod_img img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+
+  #fac_img img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#fac_h2{
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+section::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #fff,transparent);
+    z-index: 1000;
+}
+
+section img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+#mount_fr{
+    z-index: 10;
+}
+
+#main-txt{
+    position: absolute;
+    right: -450px;
+    color: white;
+    white-space: nowrap;
+    font-size: 7.5vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    
+    z-index: 9;
+}
+
+
+
+#cards {
+    transition: box-shadow .3s;
+}
+
+#cards:hover {
+box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+#btn1 {
+    margin:auto;
+    display:block;
+}
+
+#carouselExampleControls {
+    margin:auto;
+    display:block;
+}
+
